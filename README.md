@@ -1,6 +1,6 @@
 # spotify_data_analysis
-# Spotify Advanced SQL Project and Query Optimization P-6
-Project Category: Advanced
+# Spotify Advanced SQL Project and Query Optimization
+
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
 
@@ -62,7 +62,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 - **Query Execution Plan**: Using `EXPLAIN ANALYZE` to review and refine query performance.
 ---
 
-## 15 Practice Questions
+## 15 Questions
 
 ### Easy Level
 1. Retrieve the names of all tracks that have more than 1 billion streams.
@@ -103,16 +103,12 @@ ORDER BY 2 DESC
 6. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
 
 
-Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
-
----
-
 ## Query Optimization Technique 
 
-To improve query performance, we carried out the following optimization process:
+To improve query performance, I carried out the following optimization process:
 
 - **Initial Query Performance Analysis Using `EXPLAIN`**
-    - We began by analyzing the performance of a query using the `EXPLAIN` function.
+    - I began by analyzing the performance of a query using the `EXPLAIN` function.
     - The query retrieved tracks based on the `artist` column, and the performance metrics were as follows:
         - Execution time (E.T.): **7 ms**
         - Planning time (P.T.): **0.17 ms**
@@ -148,26 +144,3 @@ This optimization shows how indexing can drastically reduce query time, improvin
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 - **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
 
-## How to Run the Project
-1. Install PostgreSQL and pgAdmin (if not already installed).
-2. Set up the database schema and tables using the provided normalization structure.
-3. Insert the sample data into the respective tables.
-4. Execute SQL queries to solve the listed problems.
-5. Explore query optimization techniques for large datasets.
-
----
-
-## Next Steps
-- **Visualize the Data**: Use a data visualization tool like **Tableau** or **Power BI** to create dashboards based on the query results.
-- **Expand Dataset**: Add more rows to the dataset for broader analysis and scalability testing.
-- **Advanced Querying**: Dive deeper into query optimization and explore the performance of SQL queries on larger datasets.
-
----
-
-## Contributing
-If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues.
-
----
-
-## License
-This project is licensed under the MIT License.
